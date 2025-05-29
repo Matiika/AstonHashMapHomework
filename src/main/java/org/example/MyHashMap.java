@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.Map;
 import java.util.Objects;
 
 public class MyHashMap<K, V> {
@@ -107,6 +106,10 @@ public class MyHashMap<K, V> {
             currentNode = currentNode.next;
         }
         return null;
+    }
+
+    public int size() {
+        return size;
     }
 
 }

@@ -9,9 +9,17 @@ public class Main {
         myHashMap.put(2, "Tru");
         System.out.println(myHashMap.get(1));
         System.out.println(myHashMap.get(2));
+        System.out.println("Size: " + myHashMap.size());
+
+        System.out.println("----------------");
 
         myHashMap.put(1, "Han");
         System.out.println(myHashMap.get(1));
+        System.out.println("Size: " + myHashMap.size());
 
+        System.out.println("----------------");
+        myHashMap.put(3, "Obj");
+        myHashMap.put(4, "Exam");
+        System.out.println("Size: " + myHashMap.size());
     }
 }
